@@ -3,7 +3,7 @@ const debug = process.env.NODE_ENV !== 'production'
 const name = 'app_nextjs_ts'
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: !debug ? `${name}` : '',
+  assetPrefix: !debug ? `/${name}/` : '',
   basePath: '/app_nextjs_ts', 
   trailingSlash: true,
 }
