@@ -26,5 +26,8 @@
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
   },
-  "homepage": "https://utfw.github.io/nextjs_ts_test"
+  "homepage": "https://utfw.github.io/nextjs_ts_test",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
