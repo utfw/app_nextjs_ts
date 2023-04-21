@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const debug = process.env.NODE_ENV !== 'production'
-const name = 'app_nextjs_ts'
+const name = 'nextjs_ts_test' 
 const nextConfig = {
   reactStrictMode: true,
   assetPrefix: !debug ? `/${name}/` : '',
