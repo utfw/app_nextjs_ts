@@ -4,7 +4,7 @@ const name = 'nextjs_ts_test'
 const nextConfig = {
   reactStrictMode: true,
   assetPrefix: !debug ? `/${name}/` : '',
-  basePath: '/app_nextjs_ts', 
+  basePath: '/nextjs_ts_test', 
   trailingSlash: true,
 }
 
